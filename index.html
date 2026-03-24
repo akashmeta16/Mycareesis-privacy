@@ -2,80 +2,209 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mycare ESIS Privacy Policy</title>
   <style>
-    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:2em; line-height:1.6; }
-    h1, h2 { color: #2d2d2d; }
-    ul { margin-left: 1.2em; }
-    hr { margin: 2em 0; }
-    a { color: #1976d2; }
+    :root {
+      --text: #1f2937;
+      --muted: #4b5563;
+      --border: #dbe3ea;
+      --link: #0f5cc0;
+      --bg: #f7fafc;
+      --panel: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: linear-gradient(180deg, #eef5fb 0%, var(--bg) 100%);
+    }
+
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    h1, h2, h3 {
+      color: #111827;
+      line-height: 1.25;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p, li {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .meta {
+      margin-bottom: 1.5rem;
+      color: var(--muted);
+    }
+
+    .highlight {
+      padding: 14px 16px;
+      border-left: 4px solid #0f5cc0;
+      background: #eef4ff;
+      border-radius: 8px;
+      margin: 1rem 0 1.5rem;
+      color: #27446f;
+    }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Effective date:</strong> 1 July 2025</p>
-  <p>
-    This Privacy Policy applies to the Mycare ESIS ("Application", "App") developed by META16LABS HEALTHCARE AND ANALYTICS PRIVATE LIMITED.
-    We are committed to protecting your privacy. This document explains how we collect, use, and protect information when you use our App.
-  </p>
-  
-  <h2>Information Collection and Use</h2>
-  <p>
-    The Application may collect information that you provide directly, such as when registering a patient or using app features. This can include:
-  </p>
-  <ul>
-    <li>Basic personal details entered by you (e.g., name, phone number, address, age, gender, etc.)</li>
-    <li>Photographs uploaded by you for profile or records</li>
-  </ul>
-  <p>
-    The Application does <strong>not</strong> collect or use your device's precise location.
-  </p>
-  <p>
-    The App may collect non-personal technical information such as your device type, operating system version, and anonymized usage statistics to improve the Application's performance and user experience.
-  </p>
-  
-  <h2>Permissions Used</h2>
-  <ul>
-    <li><strong>INTERNET</strong>: For connectivity and communication with our backend servers.</li>
-    <li><strong>VIBRATE</strong>: For haptic feedback to enhance user experience.</li>
-    <li><strong>CAMERA</strong>: For capturing photos for profile or patient records, only when you choose to do so.</li>
-    <li><strong>READ_EXTERNAL_STORAGE</strong> and <strong>WRITE_EXTERNAL_STORAGE</strong>: To allow you to upload or save images/documents related to your records.</li>
-  </ul>
-  
-  <h2>Third-Party Services</h2>
-  <p>
-    The Application may use third-party services (such as Google Play Services) that may collect information used to identify you, in accordance with their own privacy policies. Please see:
-    <ul>
-      <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
-    </ul>
-  </p>
-  
-  <h2>Data Retention and Security</h2>
-  <p>
-    We retain user-provided data for as long as you use the Application and for a reasonable period thereafter. We take reasonable measures to protect your information from unauthorized access or disclosure.
-  </p>
-  
-  <h2>Children’s Privacy</h2>
-  <p>
-    The Application is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe your child has provided us with personal information, please contact us and we will delete such data.
-  </p>
-  
-  <h2>Opt-Out & Deletion Rights</h2>
-  <p>
-    You can stop all collection of information by uninstalling the Application at any time.
-    If you wish to have your data deleted, please contact us at <a href="mailto:support@m16labs.com">support@m16labs.com</a>.
-  </p>
-  
-  <h2>Changes to This Policy</h2>
-  <p>
-    We may update our Privacy Policy from time to time. We will notify users of any changes by updating this page. Please review this page periodically for changes.
-  </p>
-  
-  <h2>Contact Us</h2>
-  <p>
-    If you have any questions or concerns about this Privacy Policy or our data practices, or to request deletion of your data, please contact us at <a href="mailto:support@m16labs.com">support@m16labs.com</a>.
-  </p>
-  <hr>
+  <main>
+    <section class="panel">
+      <h1>Privacy Policy</h1>
+      <p class="meta"><strong>Effective date:</strong> 24 March 2026</p>
+
+      <p>
+        This Privacy Policy applies to the Mycare ESIS application ("App") provided by META16LABS HEALTHCARE AND ANALYTICS PRIVATE LIMITED ("we", "us", or "our").
+        The App is used to support teleconsultation, patient registration, consultation workflow, electronic medical records, prescriptions, follow-up management, and related healthcare operations.
+      </p>
+
+      <div class="highlight">
+        This App may access, collect, store, process, and share <strong>health data</strong> and other personal data as needed to provide healthcare and telemedicine services.
+      </div>
+
+      <h2>1. Information We Access or Collect</h2>
+      <p>Depending on how the App is used, we may access or collect the following categories of information:</p>
+
+      <h3>Account and profile information</h3>
+      <ul>
+        <li>Name, phone number, email address, postal address, gender, date of birth, age, and profile photo.</li>
+        <li>Professional or organizational details such as doctor name, department, qualification, registration information, organization name, employee ID, or similar profile details if entered into the App.</li>
+        <li>Login and session information, authentication tokens, and app configuration needed to keep you signed in and operate the App securely.</li>
+      </ul>
+
+      <h3>Health and medical information</h3>
+      <ul>
+        <li>Patient identifiers and demographics such as patient name, UHID or medical record number, mobile number, email address, age/date of birth, gender, address, insurance details, employer or organization details, and caregiver details when entered.</li>
+        <li>Clinical and health data such as symptoms, chief complaints, allergies, history, family history, diagnosis, working diagnosis, vitals, lab findings, investigations, procedures, medicines, prescriptions, special instructions, referral details, consultation notes, and follow-up details.</li>
+        <li>Medical files and records such as photographs, scanned documents, prescriptions, reports, PDFs, attachments, and other files uploaded by you or generated through the App.</li>
+        <li>Consultation workflow data such as appointment details, consultation IDs, room IDs, queue or worklist information, doctor assignment details, reminders, and treatment status.</li>
+        <li>Teleconsultation media required to conduct audio or video consultations. Where recording, recording links, or consultation media records are enabled or returned by the relevant care workflow or backend services, those records may also be associated with the consultation.</li>
+      </ul>
+
+      <h3>Device, usage, and technical information</h3>
+      <ul>
+        <li>Device type, operating system version, app version, crash or diagnostic information, IP/network information, and basic analytics or usage events.</li>
+        <li>Push notification identifiers and subscription information used to send reminders, alerts, or workflow notifications.</li>
+        <li>Locally stored app data such as cached records, selected patient/workflow state, and downloaded files such as prescription PDFs.</li>
+      </ul>
+
+      <h2>2. How We Use Information</h2>
+      <p>We use the information above, including health data, to:</p>
+      <ul>
+        <li>create and manage user and patient records;</li>
+        <li>schedule, coordinate, and conduct consultations, including audio and video consultations;</li>
+        <li>document care, update electronic medical records, store allergies and diagnosis, and manage clinical workflows;</li>
+        <li>generate, send, view, download, and retain prescriptions, medical notes, investigations, and related records;</li>
+        <li>send appointment reminders, consultation alerts, and push notifications;</li>
+        <li>support referrals, follow-ups, reporting, administration, and billing-related workflows where applicable;</li>
+        <li>maintain account security, prevent misuse, troubleshoot issues, and improve app stability and performance;</li>
+        <li>comply with legal, regulatory, safety, audit, and record-keeping obligations.</li>
+      </ul>
+
+      <h2>3. Permissions Used by the App</h2>
+      <ul>
+        <li><strong>CAMERA</strong>: To capture images or documents for patient records and to support video consultations.</li>
+        <li><strong>RECORD_AUDIO</strong>: To support audio and video consultations.</li>
+        <li><strong>READ_EXTERNAL_STORAGE</strong> and <strong>WRITE_EXTERNAL_STORAGE</strong>: To let you select, upload, view, save, or download files such as reports, prescriptions, and medical images.</li>
+        <li><strong>INTERNET</strong> and <strong>ACCESS_NETWORK_STATE</strong>: To connect to our servers and service providers and to operate online consultation workflows.</li>
+        <li><strong>DOWNLOAD_WITHOUT_NOTIFICATION</strong>: To support file and prescription download flows where available.</li>
+        <li><strong>VIBRATE</strong>: To provide haptic feedback.</li>
+      </ul>
+
+      <h2>4. Sharing of Information</h2>
+      <p>We may share personal data, including health data, only as needed for the purposes described above, including with:</p>
+      <ul>
+        <li>authorized doctors, healthcare professionals, staff, administrators, and organizations using the App to provide care or manage healthcare workflows;</li>
+        <li>service providers that help us operate the App, such as hosting, analytics, push notifications, teleconsultation, file delivery, and infrastructure providers;</li>
+        <li>regulators, courts, law enforcement, or other authorities where disclosure is required by law or necessary to protect rights, safety, or compliance;</li>
+        <li>successors or counterparties in a merger, acquisition, financing, or business transfer, subject to appropriate confidentiality and legal safeguards.</li>
+      </ul>
+      <p>
+        We do <strong>not</strong> sell health data. We do <strong>not</strong> use health data for personalized advertising.
+      </p>
+
+      <h2>5. Third-Party Services</h2>
+      <p>
+        The App may rely on third-party providers to deliver some functions. These may include services for analytics, notifications, device support, and teleconsultation. Based on the current app implementation, these providers may include Google Play Services or Google services, Firebase Analytics, OneSignal, and teleconsultation service providers used by our platform.
+      </p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+        <li><a href="https://onesignal.com/privacy_policy" target="_blank" rel="noopener noreferrer">OneSignal Privacy Policy</a></li>
+      </ul>
+
+      <h2>6. Data Retention</h2>
+      <p>
+        We retain personal data and health data for as long as needed to provide the App, maintain patient and consultation records, comply with contractual, healthcare, legal, audit, fraud-prevention, and regulatory obligations, resolve disputes, and enforce our agreements.
+      </p>
+      <p>
+        Uninstalling the App stops further collection from that device, but it does not automatically delete records that have already been stored on our systems or within healthcare workflows using the App.
+      </p>
+
+      <h2>7. Data Security</h2>
+      <p>
+        We use reasonable administrative, technical, and organizational safeguards to protect personal data and health data against unauthorized access, alteration, disclosure, or destruction. No system can be guaranteed to be 100% secure, but we work to protect the information handled through the App.
+      </p>
+
+      <h2>8. Children</h2>
+      <p>
+        The App is intended for use by authorized healthcare professionals, staff, and adult users. We do not knowingly allow children under 13 to create their own account in the App. If health data about a minor is entered into the App, it must be done by an authorized adult, healthcare professional, or other authorized representative.
+      </p>
+
+      <h2>9. Your Choices and Deletion Requests</h2>
+      <p>
+        If you want to request deletion of your data or data managed through your account, contact us at
+        <a href="mailto:support@m16labs.com">support@m16labs.com</a>.
+        We may need to retain certain records where required for healthcare operations, patient safety, legal obligations, fraud prevention, or dispute resolution.
+      </p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we do, we will update the effective date on this page. Continued use of the App after an update means the updated policy will apply.
+      </p>
+
+      <h2>11. Contact Us</h2>
+      <p>
+        If you have questions about this Privacy Policy, our data practices, or deletion requests, contact
+        <a href="mailto:support@m16labs.com">support@m16labs.com</a>.
+      </p>
+    </section>
+  </main>
 </body>
 </html>
